@@ -20,5 +20,104 @@
     --primary-font-weight: 700;
     --secondary-font-weight: 500;
     --btn-border-radius: 47.93px;
+}
 
+.container {
+    /* border: 2px solid black; */
+}
+
+/* nav bar pc */
+.nav-container {
+    border: 2px solid green;
+    /* margins (top, bottom, left, right)
+    margin: 0 140px;
+    */
+    /* margins (top, right, bottom, left)
+     */
+    margin: 10px 140px 0 140px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 0 10px 0px;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: var(--primary-font-size);
+}
+
+nav li:first-child img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px
+}
+
+nav li {
+    margin: 0;
+    padding: 20px;
+}
+
+nav li:first-child {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li:last-child {
+    margin-left: auto;
+}
+
+nav li:first-child a {
+    font-size: 32px;
+    font-weight: var(--primary-font-weight);
+    color: rgb(17, 17, 17);
+}
+
+nav li:nth-child(2) a {
+    color: rgb(254, 163, 1);
+    font-size: 20px;
+    font-weight: var(--primary-font-weight);
+}
+
+nav li:nth-child(3) a {
+    color: rgb(1, 172, 253);
+    font-size: 20px;
+    font-weight: var(--secondary-font-weight);
+}
+
+nav li:nth-child(4) a {
+    color: rgb(5, 212, 223);
+    font-size: 20px;
+    font-weight: var(--secondary-font-weight);
+}
+
+nav li:nth-child(5) a {
+    color: rgb(93, 88, 239);
+    font-size: 20px;
+    font-weight: var(--secondary-font-weight);
+}
+
+nav li:nth-child(6) a {
+    background-color: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    width: 197px;
+    height: 50px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+nav li:nth-child(6) a:hover {
+    cursor: pointer;
+    background-color: var(--btn-hover);
 }
