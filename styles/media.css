@@ -19,6 +19,49 @@
     nav li:first-child img {
         margin-right: auto;
     }
+
+    /* Banner */
+    .banner-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-container .left-child {
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .banner-container h1 {
+        font-size: 32px;
+        font-weight: var(--primary-font-weight);
+        margin-bottom: 20px;
+    }
+
+    .banner-container p {
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .banner-container img {
+        margin: 0;
+        width: 300px;
+        height: auto;
+    }
+
+    .banner-container button {
+        width: 131;
+        height: 42px;
+        padding: 10px 20px;
+        font-size: 16;
+        font-weight: 600;
+        border-radius: 10px;
+        margin-top: 20px;
+        text-align: center;
+        border: 0;
+        cursor: pointer;
+    }
 }
 
 /* tab */
