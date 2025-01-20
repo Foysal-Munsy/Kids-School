@@ -20,6 +20,8 @@
     --primary-font-weight: 700;
     --secondary-font-weight: 500;
     --btn-border-radius: 47.93px;
+    --primary-margin: 10px 140px 0 140px;
+    --primary-border: 2px solid green;
 }
 
 .container {
@@ -28,13 +30,13 @@
 
 /* nav bar pc */
 .nav-container {
-    border: 2px solid green;
+    border: var(--primary-border);
     /* margins (top, bottom, left, right)
     margin: 0 140px;
     */
     /* margins (top, right, bottom, left)
      */
-    margin: 10px 140px 0 140px;
+    margin: var(--primary-margin);
 }
 
 nav ul {
@@ -63,6 +65,7 @@ nav li:first-child img {
 nav li {
     margin: 0;
     padding: 20px;
+
 }
 
 nav li:first-child {
@@ -127,6 +130,64 @@ nav li:last-child {
 
 }
 
-/* .hideOnPc {
-    display: none;
-} */
+.hideOnMobile {}
+
+/* Banner Section */
+.banner-container {
+    border: var(--primary-border);
+    margin: var(--primary-margin);
+    font-family: var(--primary-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container .left-child {
+    line-height: 1.2;
+    margin-left: 0;
+}
+
+.banner-container h1 {
+    font-size: 56px;
+    font-weight: var(--primary-font-weight);
+    margin-bottom: 20px;
+}
+
+.banner-container .left-child .first {
+    color: rgb(254, 163, 1);
+}
+
+.banner-container .left-child .second {
+    color: rgb(1, 172, 253);
+}
+
+.banner-container p {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(17, 17, 17);
+}
+
+.banner-container button {
+    background-color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    width: 197px;
+    height: 50px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+
+.banner-container button:hover {
+    background-color: var(--btn-hover);
+}
+
+.banner-container img {
+    margin-right: 0;
+    width: 400px;
+    height: auto;
+}
