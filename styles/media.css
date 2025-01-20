@@ -6,7 +6,7 @@
 
     nav li:last-child {
         display: inline-block;
-        margin-left: auto;
+        margin-right: 0;
 
     }
 
@@ -21,11 +21,13 @@
     }
 
     /* Banner */
+
     .banner-container {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+
     }
 
     .banner-container .left-child {
@@ -45,9 +47,12 @@
     }
 
     .banner-container img {
-        margin: 0;
-        width: 300px;
+        width: 280px;
         height: auto;
+    }
+
+    .banner-container .right-child {
+        margin: 0;
     }
 
     .banner-container button {
