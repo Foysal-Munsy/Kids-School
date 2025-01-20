@@ -1,0 +1,24 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:wght@100..900&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+/* shared css */
+:root {
+    /* --primary-color: rgb(58, 58, 58);
+    --secondary-color: rgb(224, 44, 109); */
+    --hover-color: #f0f0f0;
+    --btn-hover: #c92080;
+    --primary-font: 'Quicksand', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-font-size: 46px;
+    --secondary-font-size: 15.34px;
+    --primary-font-weight: 700;
+    --secondary-font-weight: 500;
+    --btn-border-radius: 47.93px;
+
+}
