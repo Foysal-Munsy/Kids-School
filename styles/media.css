@@ -1,0 +1,21 @@
+@media only screen and (max-width: 390px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    nav li:last-child {
+        display: inline-block;
+        margin-left: auto;
+
+    }
+
+    .nav-container {
+        /* box-sizing: border-box; */
+        border-bottom: 0.5px solid rgb(254, 163, 1);
+        margin: 0 auto;
+    }
+
+    nav li:first-child img {
+        margin-right: auto;
+    }
+}
