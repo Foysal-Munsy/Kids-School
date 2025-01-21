@@ -323,7 +323,7 @@ nav li:last-child {
     background-position: absolute;
     background-size: contain;
     /* background-repeat: no-repeat; */
-    height: 900px;
+    height: 800px;
 }
 
 .stories-container .sh3 {
@@ -410,6 +410,7 @@ nav li:last-child {
     gap: auto;
     row-gap: 20px;
     column-gap: 10px;
+    position: relative;
 }
 
 .stories-right div:first-child,
@@ -444,8 +445,32 @@ nav li:last-child {
     background: rgb(93, 88, 240);
 }
 
+.btn-1 {
+    position: absolute;
+    top: 165px;
+    right: 453px;
+}
+
+.btn-2 {
+    position: absolute;
+    top: 165px;
+    right: 153px;
+}
+
+.btn-3 {
+    position: absolute;
+    top: 460px;
+    right: 449px;
+}
+
+.btn-4 {
+    position: absolute;
+    top: 460px;
+    right: 190px;
+}
+
 .stories-right h5 {
-    margin: 10px 30px 30px 30px;
+    margin: 20px 30px 30px 30px;
     font-family: var(--primary-font);
     font-size: 12px;
     font-weight: 700;
@@ -457,4 +482,20 @@ nav li:last-child {
     height: auto;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
+}
+
+.str-btn {
+    background-color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
