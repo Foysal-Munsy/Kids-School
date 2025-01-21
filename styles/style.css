@@ -222,6 +222,10 @@ nav li:last-child {
     font-size: 40px;
     font-weight: var(--primary-font-weight);
     text-align: center;
+    background-image: url(/assets/images/bg.png);
+    background-position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .standard-container div:first-child,
