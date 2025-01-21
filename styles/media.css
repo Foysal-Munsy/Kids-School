@@ -71,6 +71,34 @@
         border: 0;
         cursor: pointer;
     }
+
+    /* standard curriculum */
+    .standard-container {
+        padding: 0;
+        border: var(--primary-border);
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .standard-h3 {
+        font-family: var(--primary-font);
+        font-size: 20px;
+        font-weight: var(--primary-font-weight);
+        text-align: center;
+    }
+
+    .standard-container div:first-child {
+        margin: auto;
+    }
+
+    .standard-container div:nth-child(3) {
+        margin: auto;
+    }
+
+    .arrow {
+        display: none;
+    }
 }
 
 /* tab */
