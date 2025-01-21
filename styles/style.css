@@ -302,3 +302,10 @@ nav li:last-child {
     background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
     margin-right: 0;
 }
+
+.arrow {
+    margin-top: 20px;
+    background-color: rgb(254, 163, 1);
+    ;
+    border-radius: 50%;
+}
