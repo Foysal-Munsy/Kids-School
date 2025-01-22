@@ -88,6 +88,7 @@
         font-size: 20px;
         font-weight: var(--primary-font-weight);
         text-align: center;
+        margin: 0 20px 0 20px;
     }
 
     .standard-container div:first-child {

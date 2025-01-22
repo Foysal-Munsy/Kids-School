@@ -215,7 +215,7 @@ nav li:last-child {
     border: var(--primary-border);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: auto;
+    column-gap: 60px;
 }
 
 .standard-h3 {
