@@ -1,5 +1,6 @@
 /* Mobile */
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 425px) {
+
     .container {
         margin: 0;
     }
@@ -35,6 +36,7 @@
     }
 
     .banner-container .left-child {
+        margin: 0;
         line-height: 1.2;
         text-align: center;
     }
@@ -105,6 +107,7 @@
         margin: 0;
         padding: 0;
         height: auto;
+        padding-bottom: 20px;
     }
 
     .stories-left {
@@ -142,12 +145,10 @@
     .btn-2,
     .btn-3,
     .btn-4 {
-        display: none;
+        /* display: none; */
     }
 
-    .str-btn {
-        margin-bottom: 20px;
-    }
+
 
     /* Footer */
     .footer {
@@ -157,6 +158,10 @@
         /* margin-bottom: 70px; */
         margin: 0;
         padding: 10px 0 0 10px;
+    }
+
+    .foot-logo {
+        margin: 0;
     }
 
     .footer-middle {
@@ -179,6 +184,7 @@
     .foot-end {
         margin-top: 20px;
         margin-left: 0;
+        padding-bottom: 20px;
     }
 
 

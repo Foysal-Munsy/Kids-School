@@ -157,6 +157,7 @@ nav li:last-child {
 .banner-container .left-child {
     line-height: 1.2;
     margin-left: 0;
+
 }
 
 .banner-container h1 {
@@ -359,6 +360,7 @@ nav li:last-child {
     position: relative;
     flex-grow: 1;
 
+
 }
 
 .left-inside .left-btn-1 {
@@ -372,6 +374,11 @@ nav li:last-child {
 .stories-left p {
     /* margin: 10px 30px 30px 30px; */
     margin-left: 30px;
+}
+
+.stories-left h3,
+.stories-left p {
+    margin-top: 15px;
 }
 
 .stories-left button {
@@ -424,6 +431,22 @@ nav li:last-child {
     position: relative;
 }
 
+.right-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-card-text {
+    flex-grow: 1;
+    position: relative;
+}
+
+.right-btn {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 0;
+}
+
 .stories-right div:first-child,
 .stories-right div:nth-child(2),
 .stories-right div:nth-child(3),
@@ -456,29 +479,7 @@ nav li:last-child {
     background: rgb(93, 88, 240);
 }
 
-.btn-1 {
-    position: absolute;
-    top: 165px;
-    right: 453px;
-}
 
-.btn-2 {
-    position: absolute;
-    top: 165px;
-    right: 153px;
-}
-
-.btn-3 {
-    position: absolute;
-    top: 460px;
-    right: 449px;
-}
-
-.btn-4 {
-    position: absolute;
-    top: 460px;
-    right: 190px;
-}
 
 .stories-right h5 {
     margin: 20px 30px 30px 30px;
@@ -527,15 +528,19 @@ nav li:last-child {
     margin-left: 0;
 }
 
+.foot-head {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
 .footer-end {
     margin-right: 0;
 }
 
 .foot-logo {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.258) 50%, rgba(255, 255, 255, 0.379) 100%);
-    background-blend-mode: overlay;
-    border-radius: 20%;
-    /* height: 90px; */
+    margin: 0;
+    height: 70px;
 }
 
 .footer-start h1 {
