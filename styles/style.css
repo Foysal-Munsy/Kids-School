@@ -344,6 +344,8 @@ nav li:last-child {
 }
 
 .stories-left {
+    display: flex;
+    flex-direction: column;
     border-radius: 16px;
     background-color: rgb(255, 255, 255);
     padding: 0;
@@ -352,8 +354,17 @@ nav li:last-child {
 }
 
 .left-inside {
-    display: grid;
-    row-gap: 20px;
+    /* display: grid;
+    row-gap: 20px; */
+    position: relative;
+    flex-grow: 1;
+
+}
+
+.left-inside .left-btn-1 {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 0;
 }
 
 .stories-left button,
@@ -365,7 +376,7 @@ nav li:last-child {
 
 .stories-left button {
     position: absolute;
-    top: 60%;
+    top: 65%;
 }
 
 .stories-left h3 {
